@@ -21,10 +21,12 @@ body {
   }
   
   #links {
-    display: block;
+    display: flex;
     list-style: none;
     font-size: 26px;
     text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   
   #links li {
@@ -32,6 +34,24 @@ body {
     margin: 0 20px;
     color: #5ab85e;
     text-decoration: underline;
+  }
+
+  li a {
+    display: flex;
+    width: 140px;
+    height: 140px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #333;
+    align-items: center;
+    border-radius: 5px;
+    
+    
+  }
+  li a:hover{
+    border-color: #5ab85e;
+    background-color: #333;
+    color: #5ab85e;
   }
   
   #foto-container {
