@@ -45,9 +45,8 @@ body {
     border: 1px solid #333;
     align-items: center;
     border-radius: 5px;
-    
-    
   }
+  
   li a:hover{
     border-color: #5ab85e;
     background-color: #333;
